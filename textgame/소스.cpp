@@ -140,7 +140,7 @@ void display_menu(void) //메인메뉴를 출력하는 함수
 {
 	title();
 	print_profile();
-	
+
 	printf("무엇을 할지 선택해주세요 \n");
 	printf("1. 던전으로 이동 2. 대장간으로 이동 3. 상점으로 이동 4. 게임 종료 \n\n");
 }
@@ -156,7 +156,7 @@ void print_profile(void) //캐릭터의 상태를 보여주는 함수
 
 int select_menu(void) //메뉴 선택 함수
 {
-	int menu = 0; 
+	int menu = 0;
 	printf("1 2 3 4 중 선택 : ");
 	scanf("%d", &menu);
 
@@ -226,7 +226,7 @@ void goto_shop(void) //상점으로 이동하는 함수
 		{
 			charge_cash();
 		}
-		else if(menu != 2) printf("잘못된 메뉴를 선택했습니다. 다시 선택해주세요. \n\n");
+		else if (menu != 2) printf("잘못된 메뉴를 선택했습니다. 다시 선택해주세요. \n\n");
 	} while (menu != 2);
 
 	Sleep(500);
@@ -243,7 +243,7 @@ void goto_shop(void) //상점으로 이동하는 함수
 
 void charge_cash() //골드 충전 함수
 {
-	printf("\n10000골드를 충전했습니다\t 골드 %d -> %d \n", gold, gold+10000);
+	printf("\n10000골드를 충전했습니다\t 골드 %d -> %d \n", gold, gold + 10000);
 	gold += 10000;
 }
 
@@ -306,7 +306,7 @@ void upgrade_equipment(void) //장비 업그레이드 함수
 		printf("\n골드를 소모합니다\t 골드 %d -> %d \n", gold, gold - 100 * level);
 		gold -= 100 * level;
 		int success_rate = rand() % level + 1; //레벨이 1 오를 때마다 강화 확률을 낮춤
-		
+
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 4);
 		Sleep(500);
 		printf("투쾅 투쾅 투쾅!\n");
@@ -475,7 +475,7 @@ void printG(int x, int y)		//G 출력
 	gotoxy(x, y + 1); printf(" ▣    ▣  ");
 	gotoxy(x, y + 2); printf("▣      ▣ ");
 	gotoxy(x, y + 3); printf("▣      ▣  ");
-	gotoxy(x, y + 4); printf("▣          "); 
+	gotoxy(x, y + 4); printf("▣          ");
 	gotoxy(x, y + 5); printf("▣  ▣▣▣▣");
 	gotoxy(x, y + 6); printf("▣       ▣ ");
 	gotoxy(x, y + 7); printf(" ▣    ▣▣ ");
