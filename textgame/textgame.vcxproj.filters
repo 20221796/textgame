@@ -18,10 +18,7 @@
     <ClCompile Include="소스.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Tetris_Final_20220120.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="test.cpp">
+    <ClCompile Include="test.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="던전.c">

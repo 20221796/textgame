@@ -3,12 +3,8 @@
 //https://github.com/scienceNH/tetris
 //인트로화면 띄우는 코드는 위 코드를 참고했습니다.
 
-#include <stdio.h>
 #include <stdlib.h>
-#include <windows.h>
 #include <time.h>
-#include <conio.h>
-
 #include "소스.h"
 #include "대장간.h"
 #include "던전.h"
