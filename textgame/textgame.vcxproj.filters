@@ -24,5 +24,34 @@
     <ClCompile Include="test.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="던전.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="대장간.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="상점.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="인트로 및 메인화면.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="소스.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="대장간.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="던전.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="인트로 및 메인화면.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="상점.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
